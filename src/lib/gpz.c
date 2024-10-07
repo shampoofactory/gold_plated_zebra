@@ -1,5 +1,4 @@
 #include "gpz.h"
-#include "sha1.h"
 
 static const uint64_t MSG_LEN_MAX = UINT64_MAX / 8;
 

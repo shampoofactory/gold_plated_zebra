@@ -2,7 +2,6 @@
 #define RSP_EXE_H_7A1C950270709A30
 
 #include <stdint.h>
-#include <stdbool.h>
 
 void _sha1_init(uint8_t hash[static 20]);
 

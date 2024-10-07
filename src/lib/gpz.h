@@ -3,8 +3,8 @@
 
 #include <stdint.h>
 #include <stdbool.h>
-#include <stdio.h>
 #include <string.h>
+#include "sha1.h"
 
 typedef struct __attribute__((aligned(16)))
 {
