@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "gpz.h": "c",
+        "stdbool.h": "c",
+        "stdio.h": "c",
+        "rdr.h": "c",
+        "test.h": "c",
+        "rsp_exe.h": "c",
+        "stddef.h": "c",
+        "rsp.h": "c",
+        "stdlib.h": "c",
+        "sha1_core.h": "c"
+    }
+}
