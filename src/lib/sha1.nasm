@@ -23,18 +23,6 @@ dq      0x0000000000000000
 ; MBIT: message bit length
 ; NBLK: number of 64 byte message blocks
 
-; void *(uint8_t* HSHP)
-align 0x10
-_sha1_init:
-        %define HSHP      rdi
-        vmovdqa     xmm0, [INITIAL_HASH_VALUE]
-        mov         rax, [INITIAL_HASH_VALUE + 0x0010]
-        vmovdqu     [HSHP], xmm0
-        mov         [HSHP + 0x10], rax
-        ret
-        %undef HSHP
-
-
 ; void *(uint8_t* MSGP, uin64_t MBIT)
 align 0x10
 _sha1_store_len:
