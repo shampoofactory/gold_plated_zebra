@@ -1,6 +1,5 @@
         default     rel
 
-        global      _sha1_init
         global      _sha1_transform
         global      _sha1_store_len
 
